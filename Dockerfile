@@ -1,7 +1,8 @@
 FROM node
 
 ENV PORT 4000
-RUN apt update
+ENV CI yes
+RUN apt update -y
 RUN apt install -y libnss3-tools build-essential
 RUN /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 RUN /home/linuxbrew/.linuxbrew/bin/brew install mkcert
