@@ -1,4 +1,4 @@
-# `Simulacrum Auth0 Simulator`
+# `Auth0 Simulator`
 
 ### References
 - [Github Repo](https://github.com/thefrontside/simulacrum)
