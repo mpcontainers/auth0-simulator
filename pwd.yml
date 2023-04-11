@@ -1,0 +1,11 @@
+---
+version: '3.1'
+
+services:
+
+  auth0-simulator:
+    image: ghcr.io/procontainers/auth0-simulator:main
+    restart: always
+    ports:
+      - "4000:4000"
+      - "4400:4400"
